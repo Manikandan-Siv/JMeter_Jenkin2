@@ -27,7 +27,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">blazedemo_data.csv</stringProp>
+        <stringProp name="filename">C:/Mani/Mani/Data/blazedemo_data.csv</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -1553,7 +1553,7 @@ f.close();
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
               <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="script">FileWriter f = new FileWriter(&quot;blazedemo1_id.csv&quot;,true);
+              <stringProp name="script">FileWriter f = new FileWriter(&quot;C:/Users/Administrator/Documents/Filewrite/blazedemo1_id.csv&quot;,true);
 BufferedWriter out = new BufferedWriter(f);
 var1= vars.get(&quot;dc_purchase_id&quot;);      
 var2= vars.get(&quot;dc_flight_no&quot;);
@@ -1832,7 +1832,7 @@ f.close();
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">C:\Mani\GIT\report.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
